@@ -1,1 +1,1 @@
-const GIPHY_KEY = 'fTpgUmAFiANo8JlNsaH9feXYke1fyS5P';
+const GIPHY_KEY = 'hi7JhMuK25MaKd5cXh7reeNOi6yWdBKx';
