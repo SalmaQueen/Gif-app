@@ -1,6 +1,6 @@
 (function () {
   function giphySearch(keyword) {
-    return fetch(`http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=hi7JhMuK25MaKd5cXh7reeNOi6yWdBKx&s&limit=5`)
+    return fetch(`http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${GIPHY_KEY}&limit=5`)
       .then(response => response.json());
   }
 
